@@ -4,3 +4,7 @@ Extract the "Your age is" message into a new component called Age and render it 
 Pass to the Age component the age prop that Welcome is receiving from the App component.
 
 */
+
+export function Age(age){
+    return age
+}
