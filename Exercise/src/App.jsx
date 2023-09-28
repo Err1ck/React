@@ -1,4 +1,4 @@
-import { Age } from "./Exercise22";
+import { Age } from "./Exercise22-Age";
 
 export function App() {
   return (
