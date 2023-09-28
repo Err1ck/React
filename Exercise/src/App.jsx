@@ -1,11 +1,5 @@
-import { Welcome } from "./Exercise21";
+import { Welcome } from "./Exercise-Welcome"
 
 export function App(){
-    return (
-        <div>
-            <Welcome age={17}/>
-            <Welcome age={19}/>
-        </div>
-    
-    )
+    return <Welcome age={19}/>
 }
