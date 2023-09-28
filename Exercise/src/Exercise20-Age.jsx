@@ -5,6 +5,6 @@ Pass to the Age component the age prop that Welcome is receiving from the App co
 
 */
 
-export function Age(age){
+export function Age({age}){
     return age
 }
