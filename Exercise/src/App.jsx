@@ -1,10 +1,11 @@
 import { Age } from "./Exercise22-Age";
+import { Welcome } from "./Exercise22-Welcome";
 
 export function App() {
   return (
     <div>
-      <Age age={21} />
-      <Age />
+      <Welcome age={12}/>
+      <Welcome />
     </div>
   );
 }

@@ -3,6 +3,8 @@ Modify the Welcome component so that the Age component is rendered only if the a
 */
 import { Age } from "./Exercise22-Age"
 
-export function Welcome(){
-    return 
+export function Welcome({age}){
+    return (
+        age&&<h1>Your age is <Age age={age}/></h1>
+        )
 }
