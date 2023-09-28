@@ -1,4 +1,3 @@
-import { Age } from "./Exercise22-Age";
 import { Welcome } from "./Exercise22-Welcome";
 
 export function App() {
