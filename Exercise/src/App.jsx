@@ -1,11 +1,11 @@
-import { Age } from "./Exercise23";
+import { Welcome } from "./Exercise23-Welcome"
 
 export function App(){
     return (
         <div>
-            <Age age={17}/>
-            <Age age={66}/>
-            <Age age={23}/>
+            <Welcome ages={23}/>
+            <Welcome ages={14}/>
+            <Welcome ages={89}/>
         </div>
     )
 }
