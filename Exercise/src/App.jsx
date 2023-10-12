@@ -1,10 +1,10 @@
-import {Welcome,Welcome2} from "./Exercise17"
+import {Welcome} from "./Exercise17"
 
 export function App(){
     return (
         <div>
           <Welcome />
-          <Welcome2 /> 
+          <Welcome name="Pepito"/> 
         </div>
     )  
 }
