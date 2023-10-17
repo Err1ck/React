@@ -3,17 +3,22 @@ Does the name attribute of the button still get printed to the console when the 
 
 export function MouseClicker() {
   function handleButtonClick(event) {
-    console.log(event.target.name);
+    console.log(event.currentTarget.name);
   }
-  function handleImageClick(event){
-    console.log(event.target.src)
+  function handleImageClick(event) {
+    console.log(event.currentTarget.getAttribute("src"));
   }
 
   return (
     <button name={"buttonName"} onClick={handleButtonClick}>
-      <img name={"image"} width={16} height={16} src="none" onClick={handleImageClick}/>
+      <img
+        name={"image"}
+        width={36}
+        height={36}
+        src="none"
+        onClick={handleImageClick}
+      />
       Click
     </button>
   );
 }
-/* En mi caso no, porque el target de boton solo se activa cuando no le doy a la imagen */
