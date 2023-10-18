@@ -1,6 +1,6 @@
-import { Children, useState } from "react";
-
 /* Make the container collapsible, so that when the title is clicked the children are either hidden of shown again. Use the useState hook to keep track of the collapsed state. */
+import { useState } from "react";
+
 export function Container({ title, children }) {
   const [collapsable, setCollapsable] = useState(false);
 
