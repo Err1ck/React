@@ -9,7 +9,6 @@ export function TodoList() {
   function handleAddItem() {
     if (value !== "") {
       setItem([...item, value]);
-      setValue("");
     }
   }
 
