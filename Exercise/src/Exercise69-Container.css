@@ -1,0 +1,17 @@
+.app {
+  background-color: white;
+  border: 3px solid red;
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+}
+.app-tittle {
+  display: flex;
+  align-items: center;
+}
+.app-content {
+  display: flex;
+  align-items: center;
+}
