@@ -4,7 +4,7 @@ export function Colors({ colors }) {
   return (
     <ul>
       {colors.map((color) => (
-        <li key={color}>{color}</li>
+        <li>{color}</li>
       ))}
     </ul>
   );
