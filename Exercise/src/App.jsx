@@ -2,7 +2,7 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import { Welcome } from "./Exercise88-Welcome";
 import { Counter } from "./Exercise88-Counter";
-import ShowGithubUser from "./Exercise88-ShowGithubUser";
+import { ShowGithubUser } from "./Exercise88-ShowGithubUser";
 import GithubUsers from "./Exercise88-GithubUsers";
 
 export function App() {
